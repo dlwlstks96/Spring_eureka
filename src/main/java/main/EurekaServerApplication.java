@@ -7,7 +7,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-@Configuration
 @EnableEurekaServer
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 //exclude = {DataSourceAutoConfiguration.class} -> DB를 사용 안한다는 의미
